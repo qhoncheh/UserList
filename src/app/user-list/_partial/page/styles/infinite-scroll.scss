@@ -1,0 +1,11 @@
+.infinite-container {
+    max-width: 700px;
+    margin: 0 auto;
+
+    &__items-holder {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  

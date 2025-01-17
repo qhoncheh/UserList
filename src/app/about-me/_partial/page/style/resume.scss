@@ -1,0 +1,65 @@
+.resume {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 2rem;
+  
+    &__header {
+      text-align: center;
+      margin-bottom: 2rem;
+  
+      &-name {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+  
+      &-title {
+        font-size: 1.2rem;
+        color: #555;
+        margin-bottom: 1rem;
+      }
+  
+      &-contact {
+        font-size: 0.9rem;
+  
+        a {
+          color: #0056b3;
+          text-decoration: none;
+  
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  
+    &__section {
+      margin-bottom: 2rem;
+  
+      &-title {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: #333;
+      }
+  
+      &-job {
+        margin-bottom: 1rem;
+  
+        &-details {
+          font-size: 0.9rem;
+          color: #666;
+          margin-bottom: 0.5rem;
+        }
+  
+        ul {
+          list-style: disc;
+          margin-left: 1.5rem;
+        }
+      }
+    }
+  }
+  
